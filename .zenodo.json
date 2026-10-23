@@ -1,0 +1,44 @@
+{
+  "title": "Between-athlete heterogeneity and predictive uncertainty in countermovement-jump responses to repeated-sprint exercise: Reproducibility package",
+  "description": "Minimal reproducibility package containing the public anonymized input data, analysis scripts, compact numerical outputs, and figure-generation code for the associated manuscript.",
+  "upload_type": "software",
+  "publication_date": "2026-10-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Salaj, Šimon",
+      "orcid": "0009-0007-6825-1286",
+      "affiliation": "Faculty of Sports Studies, Masaryk University"
+    },
+    {
+      "name": "Marčan, Daniel",
+      "affiliation": "Faculty of Sports Studies, Masaryk University"
+    },
+    {
+      "name": "Hrubý, Michal",
+      "orcid": "0009-0002-2321-3239",
+      "affiliation": "Faculty of Sports Studies, Masaryk University"
+    }
+  ],
+  "keywords": [
+    "countermovement jump",
+    "repeated-sprint exercise",
+    "individual heterogeneity",
+    "hierarchical model",
+    "predictive uncertainty",
+    "sports science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0219295",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://doi.org/10.1371/journal.pone.0219295.s001",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}

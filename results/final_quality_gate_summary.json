@@ -1,0 +1,175 @@
+{
+  "loao": {
+    "n_athletes": 9,
+    "n_observations": 945,
+    "all_folds_converged": true,
+    "rmse_pp": 5.677342040780222,
+    "mae_pp": 4.329545534132265,
+    "coverage_95": 0.9291005291005291,
+    "mean_interval_width_pp": 21.570301669452142,
+    "folds": [
+      {
+        "held_out_athlete": "Athlete 1",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 3.352141949200926,
+        "mae_pp": 2.6044987620866844,
+        "coverage_95": 1.0,
+        "mean_interval_width_pp": 22.52852859186946
+      },
+      {
+        "held_out_athlete": "Athlete 2",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 5.2894580822496975,
+        "mae_pp": 4.280960481725774,
+        "coverage_95": 0.9714285714285714,
+        "mean_interval_width_pp": 21.798925013303904
+      },
+      {
+        "held_out_athlete": "Athlete 3",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 8.101701442177806,
+        "mae_pp": 6.469776155803664,
+        "coverage_95": 0.7904761904761904,
+        "mean_interval_width_pp": 20.024186046446548
+      },
+      {
+        "held_out_athlete": "Athlete 4",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 6.816535555633917,
+        "mae_pp": 5.147350400266912,
+        "coverage_95": 0.8476190476190476,
+        "mean_interval_width_pp": 20.936695063611833
+      },
+      {
+        "held_out_athlete": "Athlete 5",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 8.206625696203679,
+        "mae_pp": 6.613664814614959,
+        "coverage_95": 0.7904761904761904,
+        "mean_interval_width_pp": 19.833662987572474
+      },
+      {
+        "held_out_athlete": "Athlete 6",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 4.1446292050548,
+        "mae_pp": 3.4253425289300723,
+        "coverage_95": 0.9904761904761905,
+        "mean_interval_width_pp": 22.290706399524325
+      },
+      {
+        "held_out_athlete": "Athlete 7",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 3.8314485849026445,
+        "mae_pp": 3.060269277834783,
+        "coverage_95": 1.0,
+        "mean_interval_width_pp": 22.399558266107984
+      },
+      {
+        "held_out_athlete": "Athlete 8",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 3.7035311667908,
+        "mae_pp": 3.1713279004715424,
+        "coverage_95": 1.0,
+        "mean_interval_width_pp": 22.439968759947043
+      },
+      {
+        "held_out_athlete": "Athlete 9",
+        "n_train_athletes": 8,
+        "n_test_observations": 105,
+        "converged": true,
+        "fit_method": "lbfgs",
+        "n_warnings": 0,
+        "rmse_pp": 5.084207923963308,
+        "mae_pp": 4.192719485455995,
+        "coverage_95": 0.9714285714285714,
+        "mean_interval_width_pp": 21.880483896685714
+      }
+    ]
+  },
+  "athlete10_retained_sensitivity": {
+    "n_observations": 1050,
+    "n_athletes": 10,
+    "converged": true,
+    "fit_method": "lbfgs",
+    "n_warnings": 0,
+    "residual_sd_pp": 4.3926292856314095,
+    "contrasts": [
+      {
+        "time_h": 0.0,
+        "estimate_high_minus_low_pp": 1.3185999398467136,
+        "ci95_low_pp": -1.695288522811766,
+        "ci95_high_pp": 4.332488402505193
+      },
+      {
+        "time_h": 0.5,
+        "estimate_high_minus_low_pp": -1.2366008218042004,
+        "ci95_low_pp": -4.250489284462666,
+        "ci95_high_pp": 1.777287640854265
+      },
+      {
+        "time_h": 1.0,
+        "estimate_high_minus_low_pp": -1.105504642016189,
+        "ci95_low_pp": -4.119393104674655,
+        "ci95_high_pp": 1.908383820642277
+      },
+      {
+        "time_h": 3.0,
+        "estimate_high_minus_low_pp": -0.803256544247057,
+        "ci95_low_pp": -3.817145006905523,
+        "ci95_high_pp": 2.210631918411409
+      },
+      {
+        "time_h": 6.0,
+        "estimate_high_minus_low_pp": 0.9015833100128245,
+        "ci95_low_pp": -2.112305152645641,
+        "ci95_high_pp": 3.9154717726712898
+      },
+      {
+        "time_h": 24.0,
+        "estimate_high_minus_low_pp": 1.5075309092997276,
+        "ci95_low_pp": -1.5063575533587379,
+        "ci95_high_pp": 4.521419371958193
+      },
+      {
+        "time_h": 48.0,
+        "estimate_high_minus_low_pp": 0.920495421173573,
+        "ci95_low_pp": -2.0933930414848927,
+        "ci95_high_pp": 3.934383883832039
+      }
+    ]
+  },
+  "athlete10_duplicate_content_after_workload_label_removed": true,
+  "interpretation": "LOAO population prediction should be reported as a calibration benchmark, not as evidence that an individual athlete can be predicted without any new athlete-specific observations."
+}

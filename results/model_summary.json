@@ -1,0 +1,109 @@
+{
+  "data_source": "/Users/simonsalaj/Library/Mobile Documents/com~apple~CloudDocs/MUNI/RP/individual_heterogeneity/github_repository/rsm-individual-heterogeneity/data/pone.0219295.s001.csv",
+  "primary_model": {
+    "fixed_formula": "1 + C(workload, Treatment(reference=\"Low\"))*C(time_f, Treatment(reference=0.0)) + trial_c",
+    "random_formula": "1 + C(workload, Treatment(reference=\"Low\"))",
+    "observation_model": "Gaussian REML mixed model; robust residual sensitivity is required before submission",
+    "qc": "Athlete 10 excluded; raw label 1 used as pre-session baseline; P retained as 0 h post-session; 0.5-48 h retained"
+  },
+  "primary_diagnostics": {
+    "converged": true,
+    "n_observations": 945,
+    "n_athletes": 9,
+    "n_random_effect_dimensions": 3,
+    "reml_log_likelihood": -2730.30505857793,
+    "residual_scale": 18.37689091249947,
+    "residual_sd": 4.28682760470951,
+    "random_effect_eigenvalues": [
+      1.8562393440422076,
+      3.9723584157903784,
+      62.773628776253716
+    ],
+    "random_effect_sd": [
+      4.099782424957494,
+      4.25183349245351,
+      5.806541359238434
+    ],
+    "trial_order_estimate_pp_per_trial": -0.831321224903783,
+    "trial_order_se": 0.09860640296160374,
+    "residual_quantiles_pp": {
+      "0.0": -14.103928395920285,
+      "0.01": -10.608172939816146,
+      "0.05": -6.554955878062043,
+      "0.5": -0.42134445311480806,
+      "0.95": 7.1826120512540665,
+      "0.99": 11.734591766115821,
+      "1.0": 17.376394899850894
+    }
+  },
+  "rich_sensitivity_diagnostics": {
+    "converged": true,
+    "n_observations": 945,
+    "n_athletes": 9,
+    "n_random_effect_dimensions": 6,
+    "reml_log_likelihood": -2705.967010575443,
+    "residual_scale": 16.803899764262226,
+    "residual_sd": 4.099256001308314,
+    "random_effect_eigenvalues": [
+      0.0010589769163155405,
+      0.4318501100635677,
+      2.4131647471515323,
+      5.110635276289858,
+      14.280078573464108,
+      51.12779166073136
+    ],
+    "random_effect_sd": [
+      4.407135662714674,
+      3.6196437493480746,
+      5.6998886470807015,
+      1.258486587072538,
+      1.975094771317551,
+      1.693043203289209
+    ],
+    "trial_order_estimate_pp_per_trial": -0.8313212249037832,
+    "trial_order_se": 0.0942918461810108,
+    "residual_quantiles_pp": {
+      "0.0": -13.403516705992992,
+      "0.01": -10.659232253907536,
+      "0.05": -5.933741850401697,
+      "0.5": -0.29335140040172814,
+      "0.95": 6.813910724442395,
+      "0.99": 10.046097745671432,
+      "1.0": 16.192410263637296
+    }
+  },
+  "winsorized_sensitivity_diagnostics": {
+    "converged": true,
+    "n_observations": 945,
+    "n_athletes": 9,
+    "n_random_effect_dimensions": 3,
+    "reml_log_likelihood": -2701.297022253576,
+    "residual_scale": 17.252163962915127,
+    "residual_sd": 4.15357243381106,
+    "random_effect_eigenvalues": [
+      1.8494729393035547,
+      3.633867017059485,
+      59.54339331785821
+    ],
+    "random_effect_sd": [
+      4.004330792352878,
+      4.157106240926376,
+      5.631210871676429
+    ],
+    "trial_order_estimate_pp_per_trial": -0.8214273902278568,
+    "trial_order_se": 0.09554124282689373,
+    "residual_quantiles_pp": {
+      "0.0": -13.558250642768312,
+      "0.01": -9.124075111053804,
+      "0.05": -6.385768264457217,
+      "0.5": -0.4066533705186801,
+      "0.95": 6.988585772073521,
+      "0.99": 10.120088895647967,
+      "1.0": 13.895854064346988
+    }
+  },
+  "warnings": {
+    "primary": [],
+    "rich_sensitivity": []
+  }
+}

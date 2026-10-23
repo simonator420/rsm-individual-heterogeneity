@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Between-athlete heterogeneity and predictive uncertainty in countermovement-jump responses to repeated-sprint exercise: Reproducibility package"
+version: 1.0.0
+date-released: 2026-10-23
+message: "If you use this repository, please cite the associated manuscript and this reproducibility package."
+authors:
+  - family-names: Salaj
+    given-names: Šimon
+    email: salaj@mail.muni.cz
+    orcid: "https://orcid.org/0009-0007-6825-1286"
+    affiliation: Faculty of Sports Studies, Masaryk University
+  - family-names: Marčan
+    given-names: Daniel
+    email: 541162@mail.muni.cz
+    affiliation: Faculty of Sports Studies, Masaryk University
+  - family-names: Hrubý
+    given-names: Michal
+    email: michal.hruby@fsps.muni.cz
+    orcid: "https://orcid.org/0009-0002-2321-3239"
+    affiliation: Faculty of Sports Studies, Masaryk University
+repository-code: "https://github.com/simonator420/rsm-individual-heterogeneity"
+license: MIT
+keywords:
+  - countermovement jump
+  - repeated-sprint exercise
+  - individual heterogeneity
+  - hierarchical model
+  - predictive uncertainty
+  - sports science
