@@ -1,6 +1,6 @@
-# Between-athlete heterogeneity in countermovement-jump responses
+# Between Athlete Heterogeneity in Countermovement Jump Responses
 
-Minimal reproducibility repository for the manuscript **Between-athlete heterogeneity and predictive uncertainty in countermovement-jump responses to repeated-sprint exercise**.
+Minimal reproducibility repository for the manuscript **Between Athlete Heterogeneity and Predictive Uncertainty in Countermovement Jump Responses to Repeated Sprint Exercise**.
 
 The repository contains the public analysis-ready dataset, the numerical analysis scripts, compact result tables/reports, and the figure-generation script. Manuscript files, submission documents, working archives, local environments, and fitted posterior chains are intentionally excluded.
 
